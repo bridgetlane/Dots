@@ -103,7 +103,7 @@ window.onload = function() {
             );
         }
         
-        if (circle.health === 1){
+        if (circle.health > 0){
             // now check if a whole row is selected
             var allIndexes = [0, 1, 2, 3];
             allIndexes.splice(groupIndex, 1); // find all adjacent columns
